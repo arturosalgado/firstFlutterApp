@@ -11,6 +11,7 @@ class CustomButton extends StatelessWidget{
         var b = FloatingActionButton(onPressed: this.onPressed,
 
         child: Icon(this.icon),
+          enableFeedback: true,
         );
 
 
